@@ -7,6 +7,7 @@ public class Tester {
     private int expirienceInYears;
     private String englishLevel;
     private double salary;
+    private static String info;
 
     // Первый конструктор
     public Tester(String name, String surname) {
@@ -41,7 +42,7 @@ public class Tester {
     }
 
     public void printInfo(double salary) {
-        System.out.println("Salary: " + salary);
+        System.out.println("Salary: " + salary+info);
     }
 
     // Статический метод
